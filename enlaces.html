@@ -1,14 +1,97 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<title>Junta</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces - Sección Exterior RSEF</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<h1>Junta Directiva</h1>
+<header>
+    <div class="header-content">
 
-<p>Contenido en preparación.</p>
+```
+    <div class="logo-container">
+
+        <img src="logo-rsef-exterior.png"
+             alt="Logo Sección Exterior RSEF">
+
+        <div>
+            <h1>Sección Exterior</h1>
+            <p>Real Sociedad Española de Física</p>
+        </div>
+
+    </div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="junta.html">Junta</a>
+        <a href="actividades.html">Actividades</a>
+        <a href="enlaces.html">Enlaces</a>
+    </nav>
+
+</div>
+```
+
+</header>
+
+<main>
+
+```
+<h2>Enlaces de interés</h2>
+
+<div class="link-card">
+
+    <h3>Real Sociedad Española de Física</h3>
+
+    <p>
+        Página oficial de la Real Sociedad Española de Física.
+    </p>
+
+    <p>
+        <a href="https://rsef.es/" target="_blank">
+            https://rsef.es/
+        </a>
+    </p>
+
+</div>
+
+<div class="link-card">
+
+    <h3>LinkedIn · Sección Exterior RSEF</h3>
+
+    <p>
+        Sigue las actividades y novedades de la Sección Exterior
+        a través de LinkedIn.
+    </p>
+
+    <p>
+        <a href="https://www.linkedin.com/in/rsef-seccion-exterior"
+           target="_blank">
+            linkedin.com/in/rsef-seccion-exterior
+        </a>
+    </p>
+
+</div>
+```
+
+</main>
+
+<footer>
+    <p>
+        © <span id="year"></span> · Sección Exterior · Real Sociedad Española de Física
+    </p>
+</footer>
+
+<script>
+    document.getElementById("year").textContent =
+        new Date().getFullYear();
+</script>
 
 </body>
+
 </html>
