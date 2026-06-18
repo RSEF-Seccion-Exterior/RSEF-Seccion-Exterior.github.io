@@ -1,14 +1,95 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<title>Junta</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junta Directiva - Sección Exterior RSEF</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<h1>Junta Directiva</h1>
+<header>
+    <div class="header-content">
 
-<p>Contenido en preparación.</p>
+```
+    <div class="logo-container">
+
+        <img src="logo-rsef-exterior.png"
+             alt="Logo Sección Exterior RSEF">
+
+        <div>
+            <h1>Sección Exterior</h1>
+            <p>Real Sociedad Española de Física</p>
+        </div>
+
+    </div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="junta.html">Junta</a>
+        <a href="actividades.html">Actividades</a>
+        <a href="enlaces.html">Enlaces</a>
+    </nav>
+
+</div>
+```
+
+</header>
+
+<main>
+
+```
+<h2>Junta Directiva</h2>
+
+<div class="member-card">
+
+    <img src="montero.png"
+         alt="José Montero">
+
+    <div class="member-info">
+
+        <h3>José Montero</h3>
+
+        <p class="position">
+            Presidente
+        </p>
+
+        <<p>
+    Físico especializado en materiales cromogénicos, ventanas
+    inteligentes y materiales funcionales para aplicaciones
+    energéticas. Tras más de trece años de actividad investigadora
+    y académica en Suecia y Noruega, se ha reincorporado recientemente
+    al sistema científico español a través del programa Beatriz
+    Galindo Senior de la Universidad de Huelva.
+</p>
+
+<p>
+    Su investigación se centra en el desarrollo de materiales
+    avanzados para la eficiencia energética en edificios y en el
+    estudio de compuestos de aniones mixtos.
+</p>
+
+    </div>
+
+</div>
+```
+
+</main>
+
+<footer>
+    <p>
+        © <span id="year"></span> · Sección Exterior · Real Sociedad Española de Física
+    </p>
+</footer>
+
+<script>
+    document.getElementById("year").textContent =
+        new Date().getFullYear();
+</script>
 
 </body>
+
 </html>
