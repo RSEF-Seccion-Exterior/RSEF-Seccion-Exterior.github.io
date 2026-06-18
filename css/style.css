@@ -18,7 +18,10 @@ gap:20px;
 }
 
 .logo-container img{
-height:90px;
+    height:130px;
+    background:white;
+    padding:10px;
+    border-radius:6px;
 }
 
 nav{
