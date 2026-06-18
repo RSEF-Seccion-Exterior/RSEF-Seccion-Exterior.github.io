@@ -186,3 +186,28 @@ footer{
     text-align:center;
     padding:20px;
 }
+.member-card{
+display:flex;
+gap:30px;
+align-items:flex-start;
+margin-top:30px;
+}
+
+.member-card img{
+width:220px;
+border-radius:8px;
+}
+
+.member-info{
+flex:1;
+}
+
+.member-info h3{
+margin-top:0;
+color:#003366;
+}
+
+.position{
+font-weight:bold;
+color:#666;
+}
